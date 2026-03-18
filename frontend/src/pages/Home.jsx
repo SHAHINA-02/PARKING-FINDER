@@ -16,7 +16,8 @@ const Home = () => {
   const fetchSpots = async () => {
     try {
       setLoading(true);
-      const res = await axios.get(`http://localhost:5000/api/parking${searchQuery ? `?area=${searchQuery}` : ''}`);
+      const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const res = await axios.get(`${API_BASE_URL}/api/parking${searchQuery ? `?area=${searchQuery}` : ''}`);
       setSpots(res.data);
     } catch (err) {
       console.error('Error fetching spots', err);
