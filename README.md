@@ -10,7 +10,7 @@
 
 **LIVE DEMO:** https://parking-finder-sq1r.vercel.app
 
-SCREENSHOTS-
+SCREENSHOTS-https://github.com/SHAHINA-02/PARKING-FINDER/blob/1b76652691e11da0604a1c46af744152d5ce47f7/PARKING%20FIND-SC/Screenshot%202026-05-01%20135244.png
 
 ---
 
